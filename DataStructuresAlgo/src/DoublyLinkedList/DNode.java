@@ -1,0 +1,15 @@
+package DoublyLinkedList;
+public class DNode {
+
+	public int i;
+	public DNode next;
+	public DNode previous;
+
+	public DNode(int id) {
+		i = id;
+	}
+
+	public String toString() {
+		return "{" + i + "} ";
+	}
+}
